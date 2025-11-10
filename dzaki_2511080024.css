@@ -1,0 +1,151 @@
+header {
+    background-color: #4CAF50;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    padding: 20px;
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+nav {
+    text-align: right;
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    gap: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+main {
+    padding: 20px;
+    line-height: 1.6;
+}
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+main .beranda {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin: 20px;
+}
+main .beranda h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: bold;
+    color: cadetblue;
+}
+
+main .profil {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+main .profil table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.kontak {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontak h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.kontak-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.kontak-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 80%;
+    max-width: 400px;
+}
+
+.kontak-btn:hover {
+    background-color: #84994F;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #666;
+    font-size: 14px;
+    border-top: 2px solid #e0e0e0;
+    margin-top: 30px;
+}
